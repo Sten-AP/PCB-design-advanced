@@ -1,7 +1,7 @@
 #include "FastLED.h"
 
 #define NUM_LEDS 4
-#define PIN_LED 3
+#define PIN_LED A0
 
 CRGB RGB_LEDS[NUM_LEDS];
 int index = 0;
@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   FastLED.clear();
-  RGB_LEDS[index] = CHSV(250, 255, 100);
+  RGB_LEDS[index] = CHSV(250, 255, 20);
   FastLED.show();
 
   index++;
