@@ -1,5 +1,5 @@
 
-(footprint OSCCC150X320X90-2N (layer F.Cu) (tedit 63E50D9A)
+(footprint OSCCC150X320X90-2N (layer F.Cu) (tedit 63EE11BB)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 1.675205 -2.035235 0) (layer F.SilkS)

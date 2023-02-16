@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   FastLED.clear();
-  RGB_LEDS[index] = CHSV(250, 255, 20);
+  RGB_LEDS[index] = CHSV(360, 100, 100);
   FastLED.show();
 
   index++;

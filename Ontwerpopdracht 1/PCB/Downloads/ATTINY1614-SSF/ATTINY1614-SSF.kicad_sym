@@ -1,0 +1,149 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ATTINY1614-SSF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -17.78 16.24 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ATTINY1614-SSF" (id 1) (at -17.78 -19.24 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SOIC127P600X175-14N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "ATTINY1614-SSNR" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "20MHz, SOIC, 85C, Green, 14 SOIC .150in T/R" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Unavailable" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Microchip" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "SO-14 Microchip" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ATTINY1614-SSF_0_0"
+      (rectangle (start -17.78 -15.24) (end 17.78 15.24)
+        (stroke (width 0.41)) (fill (type background))
+      )
+      (pin bidirectional line (at -22.86 7.62 0) (length 5.08)
+        (name "PA0/~{RESET~{/UDPI}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 5.08 0) (length 5.08)
+        (name "PA1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 2.54 0) (length 5.08)
+        (name "PA2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 0.0 0) (length 5.08)
+        (name "PA3/EXTCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -2.54 0) (length 5.08)
+        (name "PA4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -22.86 -5.08 0) (length 5.08)
+        (name "PA5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 12.7 180.0) (length 5.08)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 7.62 180.0) (length 5.08)
+        (name "PA6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 5.08 180.0) (length 5.08)
+        (name "PA7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 2.54 180.0) (length 5.08)
+        (name "PB0"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 0.0 180.0) (length 5.08)
+        (name "PB1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -2.54 180.0) (length 5.08)
+        (name "PB2/OSC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at 22.86 -5.08 180.0) (length 5.08)
+        (name "PB3/OSC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 22.86 -10.16 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
