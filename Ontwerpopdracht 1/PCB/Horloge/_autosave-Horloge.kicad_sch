@@ -2928,7 +2928,7 @@
   (symbol (lib_id "power:VDD") (at 269.24 24.13 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6cbbf477-cbfc-493f-ac49-a07c9d283098)
-    (property "Reference" "#PWR?" (id 0) (at 269.24 27.94 0)
+    (property "Reference" "#PWR0101" (id 0) (at 269.24 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (id 1) (at 271.78 21.59 0))
@@ -3490,7 +3490,7 @@
   (symbol (lib_id "power:VDD") (at 27.94 104.14 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid e022f9a2-9ca5-447d-a3c0-cf8556f85686)
-    (property "Reference" "#PWR?" (id 0) (at 27.94 107.95 0)
+    (property "Reference" "#PWR0102" (id 0) (at 27.94 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (id 1) (at 30.48 101.6 0))
@@ -3592,7 +3592,7 @@
   (symbol (lib_id "power:VDD") (at 27.94 139.7 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fb658080-d24a-4a9e-8e24-b28894de43fd)
-    (property "Reference" "#PWR?" (id 0) (at 27.94 143.51 0)
+    (property "Reference" "#PWR0103" (id 0) (at 27.94 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (id 1) (at 30.48 137.16 0))
@@ -3649,6 +3649,15 @@
     (path "/5871051d-51bf-4c2b-a01c-272d69d983be"
       (reference "#PWR035") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/6cbbf477-cbfc-493f-ac49-a07c9d283098"
+      (reference "#PWR0101") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/e022f9a2-9ca5-447d-a3c0-cf8556f85686"
+      (reference "#PWR0102") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/fb658080-d24a-4a9e-8e24-b28894de43fd"
+      (reference "#PWR0103") (unit 1) (value "VDD") (footprint "")
+    )
     (path "/91a422fb-7118-4a8c-80f3-79b1db52358e"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
@@ -3660,15 +3669,6 @@
     )
     (path "/099ca991-7c3b-4289-b6b5-9bc32b1ee571"
       (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/6cbbf477-cbfc-493f-ac49-a07c9d283098"
-      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
-    )
-    (path "/e022f9a2-9ca5-447d-a3c0-cf8556f85686"
-      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
-    )
-    (path "/fb658080-d24a-4a9e-8e24-b28894de43fd"
-      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
     )
     (path "/1b070be4-7e29-4e18-85f3-746e2b378b88"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "")
