@@ -2143,7 +2143,7 @@
     (property "Value" "12pF" (id 1) (at 54.61 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "GRM21BR61A226ME51L:CAPC2012X140N" (id 2) (at 51.7652 68.58 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 51.7652 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 50.8 64.77 0)
@@ -3079,7 +3079,7 @@
     (uuid 987d473b-352b-41d0-80e0-69799be27f92)
     (property "Reference" "U2" (id 0) (at 146.05 19.05 0))
     (property "Value" "ATTINY414-SSF" (id 1) (at 146.05 21.59 0))
-    (property "Footprint" "SOIC127P600X175-14N" (id 2) (at 146.05 39.37 0)
+    (property "Footprint" "ATTINY414-SSF:SOIC127P600X175-14N" (id 2) (at 146.05 39.37 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 146.05 39.37 0)
@@ -3742,7 +3742,7 @@
     (property "Value" "22uF" (id 1) (at 93.98 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "GRM21BR61A226ME51L:CAPC2012X140N" (id 2) (at 92.4052 35.56 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 92.4052 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 91.44 31.75 0)
@@ -3775,7 +3775,7 @@
     (uuid e8b02372-df70-4a53-bb2e-192ce2085ac9)
     (property "Reference" "L1" (id 0) (at 46.99 26.67 90))
     (property "Value" "4.7uH" (id 1) (at 46.99 29.21 90))
-    (property "Footprint" "" (id 2) (at 46.99 31.75 0)
+    (property "Footprint" "Inductor_SMD:L_Sunlord_SWPA5020S" (id 2) (at 46.99 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 46.99 31.75 0)
@@ -3864,7 +3864,7 @@
     (property "Value" "12pF" (id 1) (at 78.74 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "GRM21BR61A226ME51L:CAPC2012X140N" (id 2) (at 77.1652 68.58 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 77.1652 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 76.2 64.77 0)
@@ -4075,13 +4075,13 @@
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "")
     )
     (path "/d7e56d45-a657-43fb-bc8b-670c5cd57934"
-      (reference "C1") (unit 1) (value "22uF") (footprint "GRM21BR61A226ME51L:CAPC2012X140N")
+      (reference "C1") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/0cda8030-1957-40fa-9ada-a2819489c5e2"
-      (reference "C2") (unit 1) (value "12pF") (footprint "GRM21BR61A226ME51L:CAPC2012X140N")
+      (reference "C2") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/f9b52ee3-acc0-4d75-9513-ba7c704b696b"
-      (reference "C3") (unit 1) (value "12pF") (footprint "GRM21BR61A226ME51L:CAPC2012X140N")
+      (reference "C3") (unit 1) (value "12pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/24e64655-404c-4e7d-966c-1f2b57c66a95"
       (reference "D1") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm")
@@ -4165,7 +4165,7 @@
       (reference "J3") (unit 1) (value "Conn_01x01") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical")
     )
     (path "/e8b02372-df70-4a53-bb2e-192ce2085ac9"
-      (reference "L1") (unit 1) (value "4.7uH") (footprint "")
+      (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Sunlord_SWPA5020S")
     )
     (path "/a028ea2d-9fb9-4ae1-816d-39a67e196c9a"
       (reference "Q1") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -4192,7 +4192,7 @@
       (reference "U1") (unit 1) (value "TPS613222ADBVT") (footprint "TPS613222ADBVT:SOT95P280X145-5N")
     )
     (path "/987d473b-352b-41d0-80e0-69799be27f92"
-      (reference "U2") (unit 1) (value "ATTINY414-SSF") (footprint "SOIC127P600X175-14N")
+      (reference "U2") (unit 1) (value "ATTINY414-SSF") (footprint "ATTINY414-SSF:SOIC127P600X175-14N")
     )
     (path "/dd963ad9-8348-4889-b2f7-109bf8f9c02d"
       (reference "Y1") (unit 1) (value "FX135A-327") (footprint "FX135A-327:OSCCC150X320X90-2N")
