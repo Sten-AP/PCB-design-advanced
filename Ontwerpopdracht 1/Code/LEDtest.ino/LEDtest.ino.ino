@@ -1,7 +1,7 @@
 #include "FastLED.h"
 
 #define NUM_LEDS 4
-#define PIN_LED A0
+#define PIN_LED PA0
 
 CRGB RGB_LEDS[NUM_LEDS];
 int index = 0;
