@@ -2652,7 +2652,7 @@
     (property "Value" "Conn_01x03" (id 1) (at 34.29 58.4199 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical" (id 2) (at 31.75 57.15 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (id 2) (at 31.75 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 31.75 57.15 0)
@@ -3831,7 +3831,7 @@
       (reference "D24") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm")
     )
     (path "/35d1ac95-96f8-4902-9ae0-f86acb453796"
-      (reference "J1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical")
+      (reference "J1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/e8b02372-df70-4a53-bb2e-192ce2085ac9"
       (reference "L1") (unit 1) (value "4.7uH") (footprint "Inductor_SMD:L_Sunlord_SWPA5020S")
