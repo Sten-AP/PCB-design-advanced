@@ -1,12 +1,14 @@
-#include <util/delay.h>
-#include <avr/io.h>
-#include "Arduino.h"
+#include <Arduino.h>
 
-void setup() {
-DDRB |= (1 << DDB5);
+void setup()
+{
+  pinMode(7, OUTPUT);
 }
 
-void loop () {
-  PINB ^= (1 << PINB5);
-  _delay_ms(500);
+void loop()
+{
+  digitalWrite(7, HIGH);
+  delay(1000);
+  digitalWrite(7, LOW);
+  delay(1000);
 }
