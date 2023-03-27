@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model COM-16346
+#/11535018/1100420/2.50/4/4/Integrated Circuit
+DEF COM-16346 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "COM-16346" 950 200 50 H V L CNN
+F2 "COM16346" 950 100 50 H I L CNN
+F3 "http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf" 950 0 50 H I L CNN
+F4 "LED Lighting Bars and Strips SMD LED - RGB WS2812B (Strip of 50)" 950 -100 50 H I L CNN "Description"
+F5 "2.25" 950 -200 50 H I L CNN "Height"
+F6 "474-COM-16346" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-16346?qs=OlC7AqGiEDnspdV1Dchx7w%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "SparkFun" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "COM-16346" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VDD 1 0 0 200 R 50 50 0 0 P
+X DOUT 2 0 -100 200 R 50 50 0 0 P
+X VSS 3 1100 -100 200 L 50 50 0 0 P
+X DIN 4 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

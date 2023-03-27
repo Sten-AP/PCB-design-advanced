@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ATTINY414_SSFR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "ATTINY414-SSFR" (!) = "", "SOIC127P600X175-14N", "Small Outline Packages", "556-ATTINY414-SSFR", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATTINY414-SSFR?qs=1mbolxNpo8d5mqJnKklqow%3D%3D", "MICROCHIP - ATTINY414-SSFR - MCU, 8BIT, AVR, 20MHZ, SOIC-14", "https://componentsearchengine.com/Datasheets/2/ATTINY414-SSFR.pdf", "1.75 mm"
+END_PART
+
+END.

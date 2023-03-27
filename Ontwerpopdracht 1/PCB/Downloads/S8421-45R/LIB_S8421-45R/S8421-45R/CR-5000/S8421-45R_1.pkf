@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "S8421-45R_1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "S8421-45R_1")
+        (spec "default")
+    )
+)

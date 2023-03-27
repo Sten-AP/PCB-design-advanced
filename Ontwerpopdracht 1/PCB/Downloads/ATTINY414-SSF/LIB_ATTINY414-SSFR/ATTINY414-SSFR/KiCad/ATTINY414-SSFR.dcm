@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATTINY414-SSFR
+D MICROCHIP - ATTINY414-SSFR - MCU, 8BIT, AVR, 20MHZ, SOIC-14
+K
+F https://componentsearchengine.com/Datasheets/2/ATTINY414-SSFR.pdf
+$ENDCMP
+#
+#End Doc Library

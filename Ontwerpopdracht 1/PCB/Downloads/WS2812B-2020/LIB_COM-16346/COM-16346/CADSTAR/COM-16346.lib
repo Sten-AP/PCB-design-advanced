@@ -1,0 +1,16 @@
+.COM-16346 :1 ;LED Lighting Bars and Strips SMD LED - RGB WS2812B (Strip of 50)
+COM16346
+*STM IC
+*NGS
+*PLB 1="VDD" 2="DOUT" 3="VSS" 4="DIN"
+*MXP 4
+*DFN COM-16346
+~!Mouser Part Number (474-COM-16346)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/SparkFun/COM-16346?qs=OlC7AqGiEDnspdV1Dchx7w%3D%3D)
+~!Manufacturer_Name (SparkFun)
+~!Manufacturer_Part_Number (COM-16346)
+~!Link Datasheet (http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf)
+~!Height (2.25mm)
+~!3D_Model (COM-16346)
+COM-16346
+1.1!U 2.1!U 3.1!U 4.1!U 

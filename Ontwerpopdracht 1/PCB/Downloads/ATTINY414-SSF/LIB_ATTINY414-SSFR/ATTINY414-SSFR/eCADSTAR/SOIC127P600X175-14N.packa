@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ATTINY414-SSFR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-10-21-15:20:18)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-14N")
+        (spec "System")
+    )
+)

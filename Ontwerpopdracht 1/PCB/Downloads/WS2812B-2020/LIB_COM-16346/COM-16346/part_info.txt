@@ -1,0 +1,9 @@
+Manufacturer=SparkFun
+PartNumber=COM-16346
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2020-04-15 10:24:46
+Downloaded=2023-03-27 16:13:53
+3D=Y

@@ -1,0 +1,16 @@
+.S8421-45R :1 ;Coin Cell Battery Holders EZ BDWR, SMT COIN CELL HOLDER CR2032
+S8421-45R_1
+*STM J
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN S8421-45R
+~!Mouser Part Number (855-S8421-45R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Harwin/S8421-45R?qs=Qom7kyPojXY6z0Gmx3V3RQ%3D%3D)
+~!Manufacturer_Name (Harwin)
+~!Manufacturer_Part_Number (S8421-45R)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/157350.pdf)
+~!Height (-)
+~!3D_Model (S8421-45R)
+S8421-45R
+1.1!U 2.1!U 

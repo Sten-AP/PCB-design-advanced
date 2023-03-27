@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'COM_16346'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "SparkFun", "COM-16346" (!) = "", "COM16346", "Other", "474-COM-16346", "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-16346?qs=OlC7AqGiEDnspdV1Dchx7w%3D%3D", "LED Lighting Bars and Strips SMD LED - RGB WS2812B (Strip of 50)", "http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf", "2.25 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP COM-16346
+D LED Lighting Bars and Strips SMD LED - RGB WS2812B (Strip of 50)
+K
+F http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf
+$ENDCMP
+#
+#End Doc Library

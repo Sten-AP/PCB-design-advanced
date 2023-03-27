@@ -160,10 +160,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 1720500b-6abf-409a-abdd-1c98a8af74f0))
     (pad "4" smd rect (at 0.915 -0.55 270) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 15 "Net-(D10-Pad4)") (pinfunction "DIN") (pintype "input") (tstamp 600d6821-769a-4607-82ce-88a99235e134))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -210,10 +210,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 0d483164-d595-4fd5-98a6-40318e502576))
     (pad "4" smd rect (at 0.915 -0.55 120) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 21 "Net-(D14-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp f89a0c72-e509-45b7-98c6-5a7624ed3a84))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -260,10 +260,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 56495fef-7d8e-4948-b07e-1a15d3de7579))
     (pad "4" smd rect (at 0.915 -0.55 150) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "Net-(D1-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 0cad9f5e-fd9b-430e-b458-cef8d781dd88))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -427,10 +427,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 2d786e43-330d-4cf4-b598-0a54a3c5e3b5))
     (pad "4" smd rect (at 0.915 -0.55 150) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 19 "Net-(D13-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 0955929c-c7ce-43d9-8063-5f1713b29648))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -526,10 +526,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 58dbbc79-ef56-4529-b2c6-91273133dca2))
     (pad "4" smd rect (at 0.915 -0.55 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 7 "LEDS UREN") (pinfunction "DIN") (pintype "input") (tstamp 2bade854-385f-4390-b343-8a8da760a6a8))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -576,10 +576,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 3c183014-106b-4acf-abc2-ecadded143c7))
     (pad "4" smd rect (at 0.915 -0.55 300) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 27 "Net-(D20-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 918db9dd-56eb-44ef-8a9c-fb5d4b27c539))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -608,6 +608,11 @@
       (net 3 "TOSC1") (pintype "passive") (tstamp 92241b96-c152-43f3-9e3c-aa7b3a8cc181))
     (pad "2" smd rect locked (at 1.35 0 270) (size 1.15 1.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "TOSC2") (pintype "passive") (tstamp 7d5ec936-7733-4433-bedc-eb19ddedbd30))
+    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_0603-4Pin_6.0x3.5mm.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.57 0.428 0.55))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -653,10 +658,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 21818ea5-5490-48ee-a3cb-1d7a5f9f876d))
     (pad "4" smd rect (at 0.915 -0.55) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 25 "Net-(D18-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 25e9b2fe-22ea-4f05-8ad7-d7a7eadc4e43))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -703,10 +708,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp a1c5f52d-2106-485e-b931-5da20d559160))
     (pad "4" smd rect (at 0.915 -0.55 240) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 16 "Net-(D10-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 3fad1827-a16c-415e-b844-879da41281dc))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -753,10 +758,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 77b5767a-fe6a-4f64-923d-d206843201f8))
     (pad "4" smd rect (at 0.915 -0.55) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 12 "Net-(D6-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp f423eace-505b-47bb-a22f-b2186239c269))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -803,10 +808,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 89255159-16de-4e78-9652-50558a6c5537))
     (pad "4" smd rect (at 0.915 -0.55 330) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 13 "Net-(D7-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp af7697dc-4d32-4de3-aae1-4ee11c882816))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -853,10 +858,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 7ca75e08-01b6-45d5-aa7c-562c7c6188ae))
     (pad "4" smd rect (at 0.915 -0.55 30) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 24 "Net-(D17-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 51de50ae-42ca-4527-a0b6-b8e051c857a0))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -950,10 +955,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp d480a328-26c6-4899-9d30-04a7cced9d2a))
     (pad "4" smd rect (at 0.915 -0.55 90) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 22 "Net-(D15-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp ca6e15c5-a678-4c1d-ac96-110ae0d19e73))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1000,10 +1005,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 709fdb57-e683-4db4-a64b-aae4e057f326))
     (pad "4" smd rect (at 0.915 -0.55 210) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 17 "Net-(D11-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 52484e0f-ea78-4eba-a80b-47981b3fb923))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1050,10 +1055,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 01bb75cd-dad6-46b4-928d-4b3a31516046))
     (pad "4" smd rect (at 0.915 -0.55 90) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 9 "Net-(D3-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 03c40ac1-221f-4561-9771-878a270061f4))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1100,10 +1105,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 2b424099-ad19-438a-a819-9367bcefe504))
     (pad "4" smd rect (at 0.915 -0.55 270) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 28 "Net-(D21-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 1675b532-49c9-4042-a740-587685190bbc))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp" hide
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1150,10 +1155,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp c19db3ec-2243-447e-997d-2c4f9b793546))
     (pad "4" smd rect (at 0.915 -0.55 330) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 26 "Net-(D19-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 46cc981a-9906-401d-839e-f362815bb463))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1200,10 +1205,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 9484038a-4a0d-4906-990e-4f2257c0b2e7))
     (pad "4" smd rect (at 0.915 -0.55 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 20 "LEDS MINUTEN") (pinfunction "DIN") (pintype "input") (tstamp 4b094fef-dd4c-463d-8597-7fdd61d90c79))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1283,10 +1288,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp a1aab3d6-fb54-4137-91cc-e5e34ad15196))
     (pad "4" smd rect (at 0.915 -0.55 240) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "Net-(D22-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 686473f9-297f-4f36-b03e-9f02a61377fd))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1375,10 +1380,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 5157e3a1-7532-4010-9c28-2c3f0277bd29))
     (pad "4" smd rect (at 0.915 -0.55 120) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 8 "Net-(D2-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 43ba8f5f-84bc-49e5-a293-198aaf4fc4cd))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1425,10 +1430,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 9a6b08b5-0dfa-4c08-950e-7ff12340b128))
     (pad "4" smd rect (at 0.915 -0.55 300) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 14 "Net-(D8-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 7b720791-9e27-444f-92a8-76edfaeae2ec))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1475,10 +1480,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 05696efe-3e67-431f-b73e-79c921884f19))
     (pad "4" smd rect (at 0.915 -0.55 60) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 23 "Net-(D16-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 11e26357-89e4-434e-8337-d094cdb41675))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1542,6 +1547,11 @@
       (net 20 "LEDS MINUTEN") (pinfunction "PA3/EXT/CLK") (pintype "bidirectional") (tstamp 31ac19e8-cb50-45ed-a553-496952293117))
     (pad "14" smd roundrect locked (at 2.475 -3.81) (size 1.97 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15)
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 8a441caa-2b39-44d5-aed0-abee233e5729))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/ATTINY414-SSF/ATTINY414-SSFR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1587,10 +1597,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp e32315c6-f5bc-4bd0-b8b0-9aa714f3ad8f))
     (pad "4" smd rect (at 0.915 -0.55 30) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "Net-(D5-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 0bdf937f-fabf-41e4-babe-18bae3cdb0a7))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1670,10 +1680,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 731cc3e0-8bc8-452c-80a4-6a4f6485361f))
     (pad "4" smd rect (at 0.915 -0.55 210) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 30 "Net-(D23-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 99cc35fb-2d66-45b2-ae8a-f7a3904e26a7))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1720,10 +1730,10 @@
       (net 2 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 10ab1e53-59cf-48cd-be88-db1dbbf7e557))
     (pad "4" smd rect (at 0.915 -0.55 60) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "Net-(D4-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 0a257a50-0dca-4172-a1d6-3ca6e9562799))
-    (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_WS2812B-2020_PLCC4_2.0x2.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1781,6 +1791,11 @@
       (net 37 "KNOP MIDDEN") (pintype "passive") (tstamp 7d5d9b2f-730e-4662-bc22-2dfaf7d26106))
     (pad "2_2" smd rect locked (at 1.8 -0.725 270) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 37 "KNOP MIDDEN") (pintype "passive") (tstamp dbff94ab-7dcd-4724-9b9b-a92678307d9b))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Inductor_SMD:L_Sunlord_SWPA5020S" (layer "B.Cu")
@@ -1882,6 +1897,11 @@
       (net 33 "VCC") (pintype "passive") (tstamp 2381db0e-fdfa-4bf5-b5e3-20ae7cb81eed))
     (pad "-" smd rect locked (at 0 8.5) (size 2.6 3) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 2 "GND") (pintype "passive") (tstamp 96603ce3-10ca-4016-9f3b-2b539b289f65))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/S8421-45R/S8421-45R.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "EVQ-P7L01P:SW_EVQ-P7L01P" (layer "B.Cu")
@@ -1938,6 +1958,11 @@
       (net 36 "KNOP RECHTS") (pintype "passive") (tstamp 8ae66274-449c-4a80-9849-d53fdef32ff6))
     (pad "2_2" smd rect locked (at 1.8 -0.725 240) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 36 "KNOP RECHTS") (pintype "passive") (tstamp f2d4f2b4-92b5-4530-9ffc-04004f69ac9f))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm" (layer "B.Cu")
@@ -2042,6 +2067,11 @@
     (pad "4" smd roundrect locked (at 1.255 -0.95) (size 1.21 0.59) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15)
       (net 1 "+5V") (pinfunction "VOUT") (pintype "output") (tstamp 2bd6b5c5-ad82-42e7-a89f-a68618d11242))
     (pad "5" smd roundrect locked (at 1.255 0.95) (size 1.21 0.59) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15) (tstamp 38ffa17d-d334-474f-8df2-c88b9931f561))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/TPS613222ADBVT/TPS613222ADBVT.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "B.Cu")
@@ -2248,6 +2278,11 @@
       (net 38 "KNOP LINKS") (pintype "passive") (tstamp a6a92ed1-8585-4d28-8659-2567aedba824))
     (pad "2_2" smd rect locked (at 1.8 -0.725 300) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 38 "KNOP LINKS") (pintype "passive") (tstamp df7cf1c1-d2b7-4916-9009-1ac756e34f5f))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "B.Cu")
@@ -2368,8 +2403,8 @@
   )
 
   (gr_circle (center 83.82 91.44) (end 103.82 91.44) (layer "Edge.Cuts") (width 0.15) (fill none) (tstamp 782ed408-6474-4ed4-9057-548015f35bdb))
-  (gr_text "Sten Hulsbergen" (at 92.71 95.25) (layer "F.SilkS") (tstamp 4e070819-1dbe-4507-b161-27c668d5b465)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (gr_text "Sten Hulsbergen" (at 83.824567 75.21322) (layer "B.SilkS") (tstamp 4e070819-1dbe-4507-b161-27c668d5b465)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
 
   (segment (start 83.09 95.905) (end 83.09 86.36) (width 0.25) (layer "F.Cu") (net 1) (tstamp 2106976f-0d37-4a87-9628-3dbd69b033d9))

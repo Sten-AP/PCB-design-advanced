@@ -1,0 +1,134 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "COM-16346"
+   (description "LED Lighting Bars and Strips SMD LED - RGB WS2812B (Strip of 50)")
+   (family "ANA")
+   (package "COM16346")
+   (attribute "Datasheet Link" "http://cdn.sparkfun.com/datasheets/BreakoutBoards/WS2812B.pdf")
+   (attribute "Geometry.Height" "2.25mm")
+   (attribute "Mouser Part Number" "474-COM-16346")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/SparkFun/COM-16346?qs=OlC7AqGiEDnspdV1Dchx7w%3D%3D")
+   (attribute "Manufacturer_Name" "SparkFun")
+   (attribute "Manufacturer_Part_Number" "COM-16346")
+   (gate
+    (symbol "COM-16346")
+    (pin "VDD" 1 PS)
+    (pin "DOUT" 2 PS)
+    (pin "VSS" 3 PS)
+    (pin "DIN" 4 PS)
+   )
+  )
+  (symbol "COM-16346"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "COM16346"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.5 2.5)
+      (pt 2.5 2.5)
+      (pt 2.5 -2.5)
+      (pt -2.5 -2.5)
+      (pt -2.5 2.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.65 3.5)
+      (pt 4.2 3.5)
+      (pt 4.2 -3.5)
+      (pt -4.65 -3.5)
+      (pt -4.65 3.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.5 2.5)
+      (pt 2.5 2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.45 -2.5)
+      (pt 2.5 -2.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.5 1)
+      (pt -2.5 -1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 2.5 1)
+      (pt 2.5 -1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.6 1.8)
+      (arc (pt -3.600 1.800) (pt -3.650 1.800) (pt -3.550 1.900) (start 180.0) (sweep -90.0))
+      (pt -3.6 1.9)
+      (arc (pt -3.600 1.900) (pt -3.650 1.800) (pt -3.550 1.900) (start 180.0) (sweep 90.0))
+      (pt -3.6 1.8))))
+   (leg 1 (pt -2.450 1.650) (padstack 0))
+   (leg 2 (pt -2.450 -1.650) (padstack 0))
+   (leg 3 (pt 2.450 -1.650) (padstack 0))
+   (leg 4 (pt 2.450 1.650) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.900 1.500 0 0 0.000))
+   )
+   (model "COM-16346.stp"
+    (euler 90 0 0)
+    (offset 0 0 0.8100000023841858)
+   )
+  )
+ )
+)

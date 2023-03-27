@@ -1,0 +1,16 @@
+.ATTINY414-SSFR :1 ;MICROCHIP - ATTINY414-SSFR - MCU, 8BIT, AVR, 20MHZ, SOIC-14
+SOIC127P600X175-14N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="PA4" 3="PA5" 4="PA6" 5="PA7" 6="TOSC1/PB3" 7="TOSC2/PB2" 8="PB1" 9="PB0" 10="PA0/'RESET'/UPDI" 11="PA1" 12="PA2" 13="PA3/EXTCLK" 14="GND"
+*MXP 14
+*DFN ATTINY414-SSFR
+~!Mouser Part Number (556-ATTINY414-SSFR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology-Atmel/ATTINY414-SSFR?qs=1mbolxNpo8d5mqJnKklqow%3D%3D)
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (ATTINY414-SSFR)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/ATTINY414-SSFR.pdf)
+~!Height (1.75mm)
+~!3D_Model (ATTINY414-SSFR)
+ATTINY414-SSFR
+1.1!P 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 14.1!G 13.1!U 12.1!U 11.1!U 10.1!I 9.1!U 8.1!U 

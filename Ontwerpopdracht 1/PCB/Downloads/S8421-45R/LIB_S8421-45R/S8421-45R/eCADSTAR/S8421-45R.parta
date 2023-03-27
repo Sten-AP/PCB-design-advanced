@@ -1,0 +1,65 @@
+(Japanese_coding: sjis)
+(function "ECS_261487"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-12-19-11:38:56)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "S8421-45R")
+)
+
+
+(pinAssign "ECS_261487"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-12-19-11:38:56)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_261487")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "S8421-45R")
+)
+
+
+(part "S8421-45R"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-12-19-11:38:56)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "S8421-45R")
+    (pinAssignRef "ECS_261487")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Coin Cell Battery Holders EZ BDWR, SMT COIN CELL HOLDER CR2032")
+    (property "Mouser_Part_Number" "855-S8421-45R")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S8421-45R?qs=Qom7kyPojXY6z0Gmx3V3RQ%3D%3D")
+    (property "Manufacturer_Name" "Harwin")
+    (property "Manufacturer_Part_Number" "S8421-45R")
+    (property "Datasheet_Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA1/157350.pdf")
+)
+
+
