@@ -608,6 +608,11 @@
       (net 3 "TOSC1") (pintype "passive") (tstamp 92241b96-c152-43f3-9e3c-aa7b3a8cc181))
     (pad "2" smd rect locked (at 1.35 0 270) (size 1.15 1.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "TOSC2") (pintype "passive") (tstamp 7d5ec936-7733-4433-bedc-eb19ddedbd30))
+    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_0603-4Pin_6.0x3.5mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 0.57 0.428 0.55))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1781,6 +1786,11 @@
       (net 37 "KNOP MIDDEN") (pintype "passive") (tstamp 7d5d9b2f-730e-4662-bc22-2dfaf7d26106))
     (pad "2_2" smd rect locked (at 1.8 -0.725 270) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 37 "KNOP MIDDEN") (pintype "passive") (tstamp dbff94ab-7dcd-4724-9b9b-a92678307d9b))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Inductor_SMD:L_Sunlord_SWPA5020S" (layer "B.Cu")
@@ -1938,6 +1948,11 @@
       (net 36 "KNOP RECHTS") (pintype "passive") (tstamp 8ae66274-449c-4a80-9849-d53fdef32ff6))
     (pad "2_2" smd rect locked (at 1.8 -0.725 240) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 36 "KNOP RECHTS") (pintype "passive") (tstamp f2d4f2b4-92b5-4530-9ffc-04004f69ac9f))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm" (layer "B.Cu")
@@ -2042,6 +2057,11 @@
     (pad "4" smd roundrect locked (at 1.255 -0.95) (size 1.21 0.59) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15)
       (net 1 "+5V") (pinfunction "VOUT") (pintype "output") (tstamp 2bd6b5c5-ad82-42e7-a89f-a68618d11242))
     (pad "5" smd roundrect locked (at 1.255 0.95) (size 1.21 0.59) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15) (tstamp 38ffa17d-d334-474f-8df2-c88b9931f561))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/TPS613222ADBVT/TPS613222ADBVT.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "B.Cu")
@@ -2248,6 +2268,11 @@
       (net 38 "KNOP LINKS") (pintype "passive") (tstamp a6a92ed1-8585-4d28-8659-2567aedba824))
     (pad "2_2" smd rect locked (at 1.8 -0.725 300) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 38 "KNOP LINKS") (pintype "passive") (tstamp df7cf1c1-d2b7-4916-9009-1ac756e34f5f))
+    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (layer "B.Cu")
@@ -2368,8 +2393,8 @@
   )
 
   (gr_circle (center 83.82 91.44) (end 103.82 91.44) (layer "Edge.Cuts") (width 0.15) (fill none) (tstamp 782ed408-6474-4ed4-9057-548015f35bdb))
-  (gr_text "Sten Hulsbergen" (at 92.71 95.25) (layer "F.SilkS") (tstamp 4e070819-1dbe-4507-b161-27c668d5b465)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (gr_text "Sten Hulsbergen" (at 83.824567 75.21322) (layer "B.SilkS") (tstamp 4e070819-1dbe-4507-b161-27c668d5b465)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
 
   (segment (start 83.09 95.905) (end 83.09 86.36) (width 0.25) (layer "F.Cu") (net 1) (tstamp 2106976f-0d37-4a87-9628-3dbd69b033d9))
