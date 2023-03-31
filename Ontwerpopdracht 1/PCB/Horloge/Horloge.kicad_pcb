@@ -165,6 +165,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -215,6 +220,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -261,6 +271,11 @@
     (pad "4" smd rect (at 0.915 -0.55 150) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 6 "Net-(D1-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 0cad9f5e-fd9b-430e-b458-cef8d781dd88))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -432,6 +447,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
@@ -531,6 +551,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -577,6 +602,11 @@
     (pad "4" smd rect (at 0.915 -0.55 300) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 27 "Net-(D20-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 918db9dd-56eb-44ef-8a9c-fb5d4b27c539))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -663,6 +693,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -709,6 +744,11 @@
     (pad "4" smd rect (at 0.915 -0.55 240) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 16 "Net-(D10-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 3fad1827-a16c-415e-b844-879da41281dc))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -763,6 +803,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -813,6 +858,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -859,6 +909,11 @@
     (pad "4" smd rect (at 0.915 -0.55 30) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 24 "Net-(D17-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 51de50ae-42ca-4527-a0b6-b8e051c857a0))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -960,6 +1015,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1006,6 +1066,11 @@
     (pad "4" smd rect (at 0.915 -0.55 210) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 17 "Net-(D11-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 52484e0f-ea78-4eba-a80b-47981b3fb923))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -1060,6 +1125,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1106,6 +1176,11 @@
     (pad "4" smd rect (at 0.915 -0.55 270) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 28 "Net-(D21-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 1675b532-49c9-4042-a740-587685190bbc))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp" hide
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -1160,6 +1235,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1206,6 +1286,11 @@
     (pad "4" smd rect (at 0.915 -0.55 180) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 20 "LEDS MINUTEN") (pinfunction "DIN") (pintype "input") (tstamp 4b094fef-dd4c-463d-8597-7fdd61d90c79))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -1289,6 +1374,11 @@
     (pad "4" smd rect (at 0.915 -0.55 240) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 29 "Net-(D22-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 686473f9-297f-4f36-b03e-9f02a61377fd))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -1385,6 +1475,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1435,6 +1530,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1481,6 +1581,11 @@
     (pad "4" smd rect (at 0.915 -0.55 60) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 23 "Net-(D16-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 11e26357-89e4-434e-8337-d094cdb41675))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -1552,6 +1657,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/ATTINY414-SSF/ATTINY414-SSFR.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1598,6 +1708,11 @@
     (pad "4" smd rect (at 0.915 -0.55 30) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 11 "Net-(D5-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 0bdf937f-fabf-41e4-babe-18bae3cdb0a7))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -1685,6 +1800,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm" (layer "F.Cu")
@@ -1731,6 +1851,11 @@
     (pad "4" smd rect (at 0.915 -0.55 60) (size 0.7 0.7) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 10 "Net-(D4-Pad2)") (pinfunction "DIN") (pintype "input") (tstamp 0a257a50-0dca-4172-a1d6-3ca6e9562799))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
+      (offset (xyz 0 0 0.3))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/WS2812B-2020/COM-16346.stp"
       (offset (xyz 0 0 0.3))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 0))
@@ -1792,6 +1917,11 @@
     (pad "2_2" smd rect locked (at 1.8 -0.725 270) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 37 "KNOP MIDDEN") (pintype "passive") (tstamp dbff94ab-7dcd-4724-9b9b-a92678307d9b))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P/EVQ-P7L01P.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1902,6 +2032,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/S8421-45R/S8421-45R.stp"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "EVQ-P7L01P:SW_EVQ-P7L01P" (layer "B.Cu")
@@ -1959,6 +2094,11 @@
     (pad "2_2" smd rect locked (at 1.8 -0.725 240) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 36 "KNOP RECHTS") (pintype "passive") (tstamp f2d4f2b4-92b5-4530-9ffc-04004f69ac9f))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P/EVQ-P7L01P.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2068,6 +2208,11 @@
       (net 1 "+5V") (pinfunction "VOUT") (pintype "output") (tstamp 2bd6b5c5-ad82-42e7-a89f-a68618d11242))
     (pad "5" smd roundrect locked (at 1.255 0.95) (size 1.21 0.59) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15) (tstamp 38ffa17d-d334-474f-8df2-c88b9931f561))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/TPS613222ADBVT/TPS613222ADBVT.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/TPS613222ADBVT/TPS613222ADBVT.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2279,6 +2424,11 @@
     (pad "2_2" smd rect locked (at 1.8 -0.725 300) (size 1.4 1.05) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 38 "KNOP LINKS") (pintype "passive") (tstamp df7cf1c1-d2b7-4916-9009-1ac756e34f5f))
     (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P--3DModel-STEP-56544.STEP"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 1/PCB/Downloads/EVQ-P7L01P/EVQ-P7L01P.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
