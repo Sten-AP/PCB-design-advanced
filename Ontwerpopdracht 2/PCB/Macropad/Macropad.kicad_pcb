@@ -2283,6 +2283,9 @@
 
   (gr_rect (start 41 33.02) (end 101 93)
     (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts") (tstamp ec4cc64a-9f80-4a92-b6eb-da44bb88faa7))
+  (gr_text "Sten \nHulsbergen\n" (at 64.77 40.005) (layer "F.SilkS") (tstamp b7f4593e-4550-47d1-8569-fff5de04ea4f)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+  )
 
   (segment (start 60.325 62.865) (end 60.96 63.5) (width 0.25) (layer "B.Cu") (net 1) (tstamp 023ba1f1-af73-4cd0-9185-939789fa9c57))
   (segment (start 71.77 55.88) (end 67.19 60.46) (width 0.25) (layer "B.Cu") (net 1) (tstamp 100f0f19-0f7d-4228-9d7c-a8f9651f0dd3))
