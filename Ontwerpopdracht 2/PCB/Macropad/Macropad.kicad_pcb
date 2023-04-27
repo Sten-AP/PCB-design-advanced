@@ -277,7 +277,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
       (offset (xyz -2.54 -5.08 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -531,7 +531,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
       (offset (xyz -2.54 -5.08 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -609,7 +609,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
       (offset (xyz -2.54 -5.08 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -687,7 +687,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
       (offset (xyz -2.54 -5.08 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -765,7 +765,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
       (offset (xyz -2.54 -5.08 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -937,10 +937,15 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "D:/_School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP"
       (offset (xyz -2.54 -5.08 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
+    )
+    (model "E:/____School/AP/2022-2023/_Semester 2/PCB-design-advanced/Ontwerpopdracht 2/PCB/Downloads/LIB_MX1A-E1NW/MX1A-E1NW--3DModel-STEP-56544.STEP" hide
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
