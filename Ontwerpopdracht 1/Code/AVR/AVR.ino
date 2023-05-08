@@ -1,32 +1,34 @@
-#include <tinyNeoPixel.h>
+#include <Adafruit_NeoPixel.h>
 #ifdef AVR
 #include <avr/power.h>
 #endif
 
-#define PINU PA5 //PA5 LEDS uren
-#define PINM PA6 //PA6 LEDS minuten
-#define NUM_LEDS 12
+#define PINU 3 //PA5 LEDS uren
+#define PINM 13 //PA3 LEDS minuten
+#define NUMPIXELS 12
 
-int mosfet = 13; //PA4 MOSFET_PIN
+int mosfet = 9; //PB0 MOSFET_PIN
 
-tinyNeoPixel leds = tinyNeoPixel(NUM_LEDS, PINU, NEO_GRB);
+Adafruit_NeoPixel pixels(NUMPIXELS, PINU, NEO_GRB + NEO_KHZ800);
+#define DELAYVAL 500
+
 void setup() {
   pinMode(mosfet, OUTPUT);
   digitalWrite(mosfet, HIGH);
 
-  leds.begin();
-  leds.setPixelColor(0,255,0,0); // first LED full RED
-  leds.show();                   // LED turns on.
+  #if defined(AVR_ATtiny85) && (F_CPU == 16000000) //416 16000000 van (16Mhz)
+    clock_prescale_set(clock_div_1);
+  #endif
+
+  pixels.begin();
 }
 
-
-
 void loop() {
-  // FastLED.clear();
-  // RGB_LEDS[index] = CHSV(360, 100, 100);
-  // FastLED.show();
+  pixels.clear();
 
-  // index++;
-  // if (index >= NUM_LEDS) index = 0;
-  // delay(250);
+  for(int i=0; i<NUMPIXELS; i++) {
+    pixels.setPixelColor(i, pixels.Color(50, 0, 0));
+    pixels.show();
+    delay(DELAYVAL);
+  }
 }
