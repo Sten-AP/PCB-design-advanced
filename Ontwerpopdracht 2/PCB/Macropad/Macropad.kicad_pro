@@ -73,10 +73,8 @@
         "silk_edge_clearance|81390000|33020000|ec4cc64a-9f80-4a92-b6eb-da44bb88faa7|3aff6709-bbdc-4e72-b1c1-a033e507f95c",
         "silk_over_copper|66575557|83920000|312919c9-2b8e-4bf9-9afc-e3b0d9a59642|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|75388548|83902369|645d7b89-07f9-4da0-aa8c-3f6c14f48847|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|50000000|49400000|2754e126-31f0-4b9c-9def-16abb66145c5|5b435cc6-bcf4-4da2-bc1c-18d1a16f5115|B.Cu",
         "starved_thermal|62000000|52070000|2754e126-31f0-4b9c-9def-16abb66145c5|b29dfea5-5c59-495e-88e8-d3afeaba3488|B.Cu",
-        "starved_thermal|62000000|77470000|2754e126-31f0-4b9c-9def-16abb66145c5|a1ffed66-b5bd-48df-a6cb-0b2f914e6bf4|B.Cu",
-        "starved_thermal|92000000|49400000|2754e126-31f0-4b9c-9def-16abb66145c5|4f0d6d6b-6a88-4917-bff1-de9f6ac8f57b|B.Cu"
+        "starved_thermal|62000000|77470000|2754e126-31f0-4b9c-9def-16abb66145c5|a1ffed66-b5bd-48df-a6cb-0b2f914e6bf4|B.Cu"
       ],
       "meta": {
         "version": 2

@@ -4,8 +4,8 @@
 #define NUM_LEDS 12
 
 tinyNeoPixel pixels(NUM_LEDS, PIN_PA5, NEO_GRB);
-
-int mosfet = 9; //PB0 MOSFET_PIN
+int mosfet = 9;
+// #define mosfet 9 //PB0 MOSFET_PIN
 
 void setup() {
   pinMode(mosfet, OUTPUT);
