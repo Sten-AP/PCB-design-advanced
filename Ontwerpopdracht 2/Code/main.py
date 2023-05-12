@@ -1,44 +1,79 @@
-from machine import Pin
-import time
-from rotary_irq_rp2 import RotaryIRQ
-# from keyboard import Keyboard
-# from keycode import Keycode
+from digitalio import DigitalInOut, Direction
+from rotaryio import IncrementalEncoder
 import board
+import time
+import usb_hid
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+from adafruit_hid.keycode import Keycode
+from adafruit_hid.consumer_control import ConsumerControl
+from adafruit_hid.consumer_control_code import ConsumerControlCode
 
-rijen = [Pin(17, Pin.IN), Pin(16, Pin.IN)]
-kolommen = [Pin(12, Pin.OUT), Pin(11, Pin.OUT), Pin(10, Pin.OUT), Pin(4, Pin.OUT)]
+macropad = Keyboard(usb_hid.devices)
+cc = ConsumerControl(usb_hid.devices)
 
-r1 = RotaryIRQ(
-    pin_num_clk=27,
-    pin_num_dt=26,
-    min_val = 0,
-    max_val = 100,
-    reverse=False,
-    incr=1,
-    range_mode=RotaryIRQ.RANGE_BOUNDED,
-    pull_up=False,
-    half_step=False,
-)
+array = [
+            [Keycode.GUI, Keycode.UP_ARROW, Keycode.CAPS_LOCK, ConsumerControlCode.MUTE],
+            [Keycode.LEFT_ARROW, Keycode.DOWN_ARROW, Keycode.RIGHT_ARROW, ConsumerControlCode.PLAY_PAUSE]
+        ]
 
-r2 = RotaryIRQ(
-    pin_num_clk=3,
-    pin_num_dt=2,
-    min_val = 0,
-    max_val = 100,
-    reverse=False,
-    incr=1,
-    range_mode=RotaryIRQ.RANGE_BOUNDED,
-    pull_up=False,
-    half_step=False,
-)
+rij1 = DigitalInOut(board.GP17)
+rij1.direction = Direction.INPUT
+rij2 = DigitalInOut(board.GP16)
+rij2.direction = Direction.INPUT
+
+rijen = [rij1, rij2]
+
+kolom1 = DigitalInOut(board.GP12)
+kolom1.direction = Direction.OUTPUT
+kolom1.value = True
+kolom2 = DigitalInOut(board.GP11)
+kolom2.direction = Direction.OUTPUT
+kolom2.value = True
+kolom3 = DigitalInOut(board.GP10)
+kolom3.direction = Direction.OUTPUT
+kolom3.value = True
+kolom4 = DigitalInOut(board.GP4)
+kolom4.direction = Direction.OUTPUT
+kolom4.value = True
+
+kolommen = [kolom1, kolom2, kolom3, kolom4]
+
+
+rotary1 = IncrementalEncoder(board.GP26, board.GP27)
+rotary2 = IncrementalEncoder(board.GP2, board.GP3)
+
+last_position_1 = 0
+last_position_2 = 0
 
 while True:
-    for rij in rijen:
-        a = ""
-        for kolom in kolommen:
-            kolom.off()            
-            a += str(rij.value())
-            kolom.on()
-        print(a)
-    print(r1.value(), r2.value())
-    time.sleep(0.1)
+    # knoppen uitlezen
+    for i, rij in enumerate(rijen):
+        for j, kolom in enumerate(kolommen):
+            kolom.value = False
+            if not rij.value:
+                if j != 3:
+                    macropad.send(array[i][j])
+                else:
+                    cc.send(array[i][j])
+                time.sleep(0.2)
+            kolom.value = True
+            
+    # rotary 1 uitlezen
+    position1 = rotary1.position
+    if position1 > last_position_1:
+        cc.send(ConsumerControlCode.VOLUME_INCREMENT)
+    elif position1 < last_position_1:
+        cc.send(ConsumerControlCode.VOLUME_DECREMENT)
+    last_position_1 = position1
+
+    # rotary 2 uitlezen
+    position2 = rotary2.position
+    if position2 != last_position_2:
+        cc.send(ConsumerControlCode.BRIGHTNESS_INCREMENT)
+    elif position2 < last_position_2:
+        cc.send(ConsumerControlCode.BRIGHTNESS_DECREMENT)
+    last_position_2 = position2
+
+
+
