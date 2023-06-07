@@ -1,51 +1,146 @@
-#include <tinyNeoPixel.h>
+// // Pin voor de LED-aansturing
+// #define LED_PIN_PA5 PIN_PA5
+// #define LED_PIN_PA3 PIN_PA3
+// // Aantal LED's in de rij
+// #define NUM_LEDS 12
 
-#define LED_PIN 3
-#define NUM_LEDS 12
+// #define MOSFET PIN_PB0
 
-tinyNeoPixel pixels(NUM_LEDS, PIN_PA5, NEO_GRB);
-int mosfet = 9;
-// #define mosfet 9 //PB0 MOSFET_PIN
+// // Functie om een enkele LED aan te sturen
+// void setPixelColor(uint8_t ledIndex, uint8_t LED_PIN, uint8_t red, uint8_t green, uint8_t blue, uint8_t brightness) {
+//   // Pas de helderheid aan voor elk kleurkanaal
+//   red = (red * brightness) / 255;
+//   green = (green * brightness) / 255;
+//   blue = (blue * brightness) / 255;
 
-void setup() {
-  pinMode(mosfet, OUTPUT);
-  digitalWrite(mosfet, LOW); 
+//   // Bereken de startindex van de LED in de gegevensbuffer
+//   int startIndex = ledIndex * 3;
 
-  pixels.begin();
-  pixels.setPixelColor(0, pixels.Color(0, 10, 0));
-  // pixels.setPixelColor(1, pixels.Color(0, 255, 0));
+//   // Stuur de gegevens naar de LED's door een puls te genereren
+//   // Hier moet je de timingvereisten van de LED volgen (bijvoorbeeld 50 μs laag gevolgd door 750 μs hoog)
+//   for (int i = startIndex; i < startIndex + 3; i++) {
+//     for (int bit = 7; bit >= 0; bit--) {
+//       // Stuur een puls voor elk bit in de kleurwaarde
+//       if (green & (1 << bit)) {
+//         // Stuur een puls die de "1" vertegenwoordigt voor het groene kanaal
+//         digitalWrite(LED_PIN, HIGH);
+//         delayMicroseconds(50);
+//         digitalWrite(LED_PIN, LOW);
+//         delayMicroseconds(750);
+//       } else {
+//         // Stuur een puls die de "0" vertegenwoordigt voor het groene kanaal
+//         digitalWrite(LED_PIN, HIGH);
+//         delayMicroseconds(200);
+//         digitalWrite(LED_PIN, LOW);
+//         delayMicroseconds(600);
+//       }
 
-  pixels.show();
-}
+//       // Herhaal hetzelfde voor het rode en blauwe kanaal
+//       if (red & (1 << bit)) {
+//         digitalWrite(LED_PIN, HIGH);
+//         delayMicroseconds(50);
+//         digitalWrite(LED_PIN, LOW);
+//         delayMicroseconds(750);
+//       } else {
+//         digitalWrite(LED_PIN, HIGH);
+//         delayMicroseconds(200);
+//         digitalWrite(LED_PIN, LOW);
+//         delayMicroseconds(600);
+//       }
 
-void loop() {
-  // Code hier
-}
+//       if (blue & (1 << bit)) {
+//         digitalWrite(LED_PIN, HIGH);
+//         delayMicroseconds(50);
+//         digitalWrite(LED_PIN, LOW);
+//         delayMicroseconds(750);
+//       } else {
+//         digitalWrite(LED_PIN, HIGH);
+//         delayMicroseconds(200);
+//         digitalWrite(LED_PIN, LOW);
+//         delayMicroseconds(600);
+//       }
+//     }
+//   }
+// }
 
-
-
-
-// #include <Adafruit_NeoPixel.h>
-
-// #define PIN_UREN 10 //PA5 LEDS uren
-// #define PIN_MINUTEN 13 //PA3 LEDS minuten
-// #define AANTAL_LEDS 12
-
-// int mosfet = 9; //PB0 MOSFET_PIN
-
-// Adafruit_NeoPixel LEDS_UREN(AANTAL_LEDS, PIN_UREN, NEO_GRB + NEO_KHZ800);
-// // Adafruit_NeoPixel LEDS_MINUTEN(AANTAL_LEDS, PIN_MINUTEN, NEO_GRB + NEO_KHZ800);
 
 // void setup() {
-//   pinMode(mosfet, OUTPUT);
+//   // Initialiseer de pin voor LED-aansturing
+//   pinMode(LED_PIN_PA5, OUTPUT);
+//   pinMode(LED_PIN_PA3, OUTPUT);
 
-//   LEDS_UREN.begin();
-//   LEDS_UREN.setPixelColor(1, 150, 0, 0);
-  
-//   LEDS_UREN.show();
+//   pinMode(MOSFET, OUTPUT);
+//   digitalWrite(MOSFET, LOW);
 
-//   digitalWrite(mosfet, HIGH); 
+//   for (int i = 0; i < NUM_LEDS; i++) {
+//     setPixelColor(i, LED_PIN_PA5, 0, 0, 255, 10); // Stel LED op index 'i' in op blauw
+//   }
+//   for (int i = 0; i < NUM_LEDS; i++) {
+//     setPixelColor(i, LED_PIN_PA3, 0, 255, 0, 10); //
+//   }
 // }
 
 // void loop() {
+
 // }
+
+
+
+
+#include <tinyNeoPixel.h>
+
+#define MOSFET PIN_PB0
+#define LED_PIN_UREN PIN_PA5
+#define LED_PIN_MINUTEN PIN_PA3
+#define KNOP_RECHTS PIN_PA6
+#define KNOP_MIDDEN PIN_PA7
+#define KNOP_LINKS PIN_PB1
+
+#define NUM_LEDS 12
+
+tinyNeoPixel UREN(NUM_LEDS, LED_PIN_UREN, NEO_GRB);
+tinyNeoPixel MINUTEN(NUM_LEDS, LED_PIN_MINUTEN, NEO_GRB);
+
+void setup() {
+  // Leds en mosfet initialiseren als output
+  pinMode(MOSFET, OUTPUT);
+  pinMode(LED_PIN_UREN, OUTPUT);
+  pinMode(LED_PIN_MINUTEN, OUTPUT);
+
+  // Knoppen initialiseren als input
+  pinMode(KNOP_RECHTS, INPUT);
+  pinMode(KNOP_MIDDEN, INPUT);
+  pinMode(KNOP_LINKS, INPUT);
+
+  // Mosfet aan zetten
+  digitalWrite(MOSFET, HIGH); 
+  UREN.begin();
+}
+
+void loop() {
+  if (digitalRead(KNOP_RECHTS)) {
+    UREN.clear();
+    for (byte i = 0; i < NUM_LEDS; i++){
+      UREN.setPixelColor(i, UREN.Color(0, 0, 255));
+    }
+    delay(500);
+    UREN.show();
+  }
+  else if (digitalRead(KNOP_MIDDEN)){
+    UREN.clear();
+    for (byte i = 0; i < NUM_LEDS; i++){
+      UREN.setPixelColor(i, UREN.Color(0, 255, 0));
+    }
+    delay(500);
+    UREN.show();
+  }
+  else if (digitalRead(KNOP_LINKS)){
+    UREN.clear();
+    for (byte i = 0; i < NUM_LEDS; i++){
+      UREN.setPixelColor(i, UREN.Color(255, 0, 0));
+    }
+    delay(500);
+    UREN.show();
+  }
+}
+
