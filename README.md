@@ -9,7 +9,7 @@ Omdat er een probleem was met de footprint van de LED's kon de eerste versie nie
 
 ## Ontwerpopdracht 2
 Opdracht 2 is een macropad. Ook dit schema en PCB zijn gemaakt in kicad.
-De macropad bestaat voornamelijk uit 2 trimmers, 6 toetsenbordswitches en een raspberry pico W.
+De macropad bestaat voornamelijk uit 2 trimmers, 6 toetsenbordswitches en een raspberry pico W. Omdat de trimmers ingedrukt kunnen worden als knop wil dit zeggen dat er 8 knoppen zijn. Deze knoppen zijn geschakeld in een matrix en bevatten daarvoor ook de nodige diodes.
 
 Aangezien ik nu bewust was van het nodige onderzoek heb ik een grote stap gemaakt hiermee.
 
